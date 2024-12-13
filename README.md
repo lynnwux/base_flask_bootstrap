@@ -64,3 +64,20 @@ e.g.:
 (in project dir)  
 ``` npm run dev ```
 
+## To link and push new local instance of repo to new giithub repo (after clone)
+
+1. **Remove link to original remote**  
+(in project dir)  
+``` git remote remove origin ```
+
+2. **Create new blank repo on github (same name as new local instance)**  
+copy the new repo URL
+
+3. **Link local repo to new github repo**  
+``` git remote add origin <new repo url> ```  
+
+4. **Push to new remote repo**  
+``` git push origin main ```
+
+
+
