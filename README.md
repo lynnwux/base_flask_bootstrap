@@ -46,6 +46,10 @@ BASE_FLASK_BOOTSTRAP/
 ## To install from repo
 
 1. **Clone to local machine from github:**  
+(in parent dir where other project dirs are located)  
+``` git clone <repository-url> <new-directory-name> ```  
+e.g.:  
+``` git clone https://github.com/jreffsin/base_flask_bootstrap.git sample_new_project_name ```
 
 2. **Install node dependecies:**  
 (in project dir)  
