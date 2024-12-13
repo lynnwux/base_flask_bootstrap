@@ -64,7 +64,7 @@ e.g.:
 (in project dir)  
 ``` npm run dev ```
 
-## To link and push new local instance of repo to new giithub repo (after clone)
+## To link and push new local instance of repo to new github repo (after clone)
 
 1. **Remove link to original remote**  
 (in project dir)  
