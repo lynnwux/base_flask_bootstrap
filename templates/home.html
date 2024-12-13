@@ -1,0 +1,38 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<!-- Everything within content block is dummy content that can be deleted to start new template -->
+
+<div class="card text-bg-primary mb-3 mt-4 ms-4" style="max-width: 18rem;">
+    <div class="card-header">Welcome to your blank Flask app</div>
+    <div class="card-body">
+    <p class="card-text">
+        If this is styled like a card with blue background and white text, then bootrap css styles are rendering.<br><br>
+        If the button below produces a modal, bootstrap js is working.
+    </p>
+    </div>
+</div>
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-danger ms-4" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Test Modal
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Bootstrap JS is working!</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Great news!
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}
