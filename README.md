@@ -70,8 +70,8 @@ e.g.:
 (in project dir)  
 ``` git remote remove origin ```
 
-2. **Create new blank repo on github (same name as new local instance)**  
-copy the new repo URL
+2. **Create new blank repo on github**  
+(same name as new local instance)  
 
 3. **Link local repo to new github repo**  
 ``` git remote add origin <new repo url> ```  
